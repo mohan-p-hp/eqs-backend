@@ -1,4 +1,4 @@
-const User = require("../models/User");
+const User = require("../models/user");
 
 // CREATE EMPLOYEE (OWNER ONLY)
 exports.createEmployee = async (req, res) => {
